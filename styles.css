@@ -1,22 +1,19 @@
-div{
-	margin : 0;
-	padding : 0;
-	box-sizing : border-box;
+body{
+	background-color : wheat;
 	display : flex;
-	display-direction : columns;
 	justify-content : center;
-	align-items:center;
 }
-#band{
-	
-	width: 100vh;
-	height : 100%;
-	
-	color : white;
-	text-align : center;
+
+ul{
+	background-color : white;
+	width : 400px;
+	display : flex;
+	flex-direction: column;
+	justify-content : center;
+	align-items : center;
 }
 li{
-	list-style-type: none;
-	background-color : white;
-	color : black;
+	list-style-type : none;
+	padding : 2px;
+	border : 1px solid lightblue;
 }
