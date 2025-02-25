@@ -1,9 +1,22 @@
-/*  your css code here. If applicable */
 div{
-	background-color : wheat;
-	width : 100vw;
-	height : 100vh;
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
 	display : flex;
-	diesplay-directions: row;
+	display-direction : columns;
 	justify-content : center;
+	align-items:center;
+}
+#band{
+	
+	width: 100vh;
+	height : 100%;
+	
+	color : white;
+	text-align : center;
+}
+li{
+	list-style-type: none;
+	background-color : white;
+	color : black;
 }
