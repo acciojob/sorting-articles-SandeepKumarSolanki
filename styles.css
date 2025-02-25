@@ -1,1 +1,9 @@
 /*  your css code here. If applicable */
+div{
+	background-color : wheat;
+	width : 100vw;
+	height : 100vh;
+	display : flex;
+	diesplay-directions: row;
+	justify-content : center;
+}
