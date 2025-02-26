@@ -27,9 +27,10 @@
 
         /* Individual list items */
         li {
+			width : 100%;
             list-style-type: none;
             padding: 10px 20px;
-            margin: 5px 0; /* Space between items */
+            /* margin: 5px 0; /* Space between items */ */
             border-radius: 8px;
             border: 1px solid #b0e0e6; /* Light blue border */
             background-color: #f9f9f9; /* Soft background for each item */
